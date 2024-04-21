@@ -1,0 +1,17 @@
+{
+  "name": "final-proj2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass src/main.scss dist/css/main.css",
+    "watch-sass": "npm run compile-sass -- --watch",
+    "start": "live-server"
+  },
+  "author": "Mariam",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
